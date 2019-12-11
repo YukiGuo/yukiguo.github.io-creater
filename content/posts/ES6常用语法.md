@@ -1,5 +1,5 @@
 ---
-title: "ES6语法 解构赋值"
+title: "ES6常用语法"
 date: 2019-11-06T21:32:12+08:00
 draft: false
 ---
@@ -8,7 +8,6 @@ draft: false
 title: "ES6语法-解构赋值"
 date: 2019-11-03T11:02:36+08:00
 draft: true
-tags: ["Javascript","ES6"]
 ---
 ### 解构赋值
 ##### 解构赋值语法是一种 Javascript 表达式。通过解构赋值, 可以将属性/值从对象/数组中取出,赋值给其他变量。
