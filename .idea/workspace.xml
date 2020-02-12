@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="79648836-24d3-441a-b9dd-54e5e8a6e6a7" name="默认的" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1VKI4C72ar7KH9yhhVzU2ahoghg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vue-demo1" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="79648836-24d3-441a-b9dd-54e5e8a6e6a7" name="默认的" comment="" />
+      <created>1576995165154</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576995165154</updated>
+      <workItem from="1576995166899" duration="4354000" />
+      <workItem from="1577517822680" duration="1655000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="231" key="FileChooserDialogImpl" timestamp="1576997727898">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="0" y="231" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1576997727898" />
+    <state x="713" y="285" key="save.file.as.template.dialog" timestamp="1576996579826">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="713" y="285" key="save.file.as.template.dialog/0.0.1280.720@0.0.1280.720" timestamp="1576996579826" />
+  </component>
+</project>

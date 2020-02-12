@@ -4,16 +4,50 @@ date: 2019-09-21T21:26:03+08:00
 draft: false
 ---
 
-
-
-
-
 #### 构造函数 let obj = New X()
 1. 自动创建了一个空对象
 2. 自动为空对象关联原型，原型地址指定为X。prototype
 3. 自动将空对象作为this关键字运行的构造函数
 4. 自动return this
 
+```javascript
+{
+    // 正方形使用 原型结合更紧密
+    let squareList = [];
+    let widthList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    function CreateSquare(width) {
+        let obj = Object.create(CreateSquare.squarePrototype)
+        obj.width = width
+        return obj
+    }
+    CreateSquare.squarePrototype = {
+        getArea() {
+            return (this.width * this.width)
+        },
+        getLength() {
+            return (this.width * 4)
+        },
+        constructor: CreateSquare
+    }
+
+    for (let i = 0; i < 12; i++) {
+        squareList[i] = CreateSquare(widthList[i])
+    }
+
+}
+
+//使用new语法
+ function CreateSquare(width) {
+        this.width = width
+    }
+    CreateSquare.prototype.getArea = function () {
+        return (this.width * this.width)
+    }
+    CreateSquare.prototype.getLength = function () {
+        return (this.width * 4)
+    }
+    let square = new CreateSquare(5)
+```
 
 #### 构造函数本身X
 1. X函数负责给对象本身添加属性
@@ -36,13 +70,12 @@ draft: false
 
 #### Class新语法
 
-```
+```javascript 
 class Square{
-constructor(width){
-this.width =width
-getArea(){return this.width*this.width}
-}
-getLength(){return this.width*4}
+  constructor(width){
+   this.width =width
+  getArea(){return this.width*this.width}}
+  getLength(){return this.width*4}
 
 }
 ```
